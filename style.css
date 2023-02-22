@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body
+{
+    background-color: black;
+}
+
+
+header{
+    width: 100%;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+}
+
+.nav ul li{
+    display: inline;
+    float: left;
+    padding: 25px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav ul li a{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav ul li a:hover{
+    color: red;
+}
+
+.icon .fab{
+    padding-top: 21px;
+    color: rgb(255, 3, 3);
+}
+
+
+
+.gridbox{
+    display: grid;
+    grid-template-columns:  repeat(6, 200px);
+    grid-template-rows: 100px 200px 200px 200px;
+    gap: 20px;
+    padding: 140px;
+    
+ }
+
+.box1{
+    grid-column: 1/5;
+    color: white;
+    font-style: italic;
+    border-left: 9px solid red;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.box1 p{
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    
+}
+
+.box2{
+    background-image: url(./image/Header_IT_Jobs_AcademicWork_.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 80%;
+    grid-column: 5/7;
+    grid-row: 2/4;
+    color: red;
+    
+    
+}
+
+.box2 img{
+    border-right: 9px solid black;
+    
+}
+
+
+.box3{
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+.box4{
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+
+.box5{
+    background-color: rgba(240, 232, 232, 0.903);
+    border-right: 55px solid red;
+    color: rgb(80, 78, 77);
+    grid-column: 1/5;
+    grid-row: 3/5;
+    margin-right: 30px;
+    padding: 90px 30px 90px 90px;
+    text-align: justify;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+
+}
+
+
+
+.box6{
+    color: red;
+    text-align: center;
+    background-color: black;
+    border-top: 9px solid red;
+    padding: 50px;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.box7{
+    color: red;
+    text-align: center;
+    padding: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    border-right: 9px solid red;
+}
+
+.box8{
+    color: red;
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.box9{
+    color: red;
+    text-align: center;
+    padding: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    border-bottom: 9px solid red;
+}
+
+.box10{
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    font-size: 5em;
+    
+}
+
+.box11{
+    color: red;
+    text-align: center;
+    padding: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    border-left: 9px solid red;
+}
+
+
+
+.sect2{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    
+}
+
+.box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#nameinput, #emailinput, #textinput, #phone
+    {
+    appearance: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    outline: none;
+    width: 100%;
+    background-color:rgb(197, 193, 193);
+    margin-top: 20px;
+    }
+
+
+    #textinput
+    {
+    height: 150px;
+    }
+
+
+    #submit
+    {
+    appearance: none;
+    background-color:rgb(197, 193, 193);
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    outline: none;
+    width: 100%;
+    }
+    
+
+    
+
